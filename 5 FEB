@@ -1,0 +1,50 @@
+Q1. Explain Class and Object with respect to Object-Oriented Programming. Give a suitable example.
+ANS. class is just a clasification of real world entity.
+     object - object stands for real world entity.
+EXAMPLE - class test :
+            def pwskills(self):
+                prite('welcome to pwskills')
+                
+object - uzair = pwskills()
+
+
+
+Q2. Name the four pillars of OOPs.
+ANS . These four pillars are Inheritance, Polymorphism, Encapsulation and Abstraction.
+
+
+Q3. Explan why the __init__() function is used. Give a suitable example.
+ANS. __init__ is called constrecter .is a special method in Python classes that is automatically called when an object of that class is created. 
+     Its purpose is to initialize the attributes of the class with the given parameters.
+exm. class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+person = Person("John", 30)
+print(person.name) # Output: John
+print(person.age) # Output: 30
+
+
+
+
+
+
+Q4. Why self is used in OOPs?
+ANS. self is used for binding the method to the class.
+     after thst class is understands this method inside with me.
+
+Q5. What is inheritance? Give an example for each type of inheritance.
+ANS. Inheritance is a mechanism in object-oriented programming (OOP) where an object of a class 
+     can inherit properties and methods from its parent class. 
+     There are several types of inheritance:
+   Single inheritance: A class inherits properties and methods from a single parent class. For example, in a class hierarchy, a "Bird" class could inherit from an "Animal" class.
+
+   Multiple inheritance: A class inherits properties and methods from multiple parent classes. For example, in a class hierarchy, a "Penguin" class could inherit from both "Bird" and "AquaticAnimal" classes.
+
+  Multilevel inheritance: A class inherits properties and methods from a parent class, and that parent class inherits from a grandparent class. For example, in a class hierarchy, a "Duck" class could inherit from a "Bird" class, which inherits from an "Animal" class.
+
+  Hierarchical inheritance: Multiple child classes inherit from a single parent class. For example, in a class hierarchy, multiple bird species classes (e.g. "Eagle", "Pigeon") could inherit from a "Bird" class.
+
+  Hybrid inheritance: A combination of two or more types of inheritance. For example, a class could inherit properties and methods from multiple parent classes, and one of those parent classes could inherit from another parent class.
+
